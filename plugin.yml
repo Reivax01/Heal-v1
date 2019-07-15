@@ -1,0 +1,16 @@
+name: Heal
+main: Reivax\Main
+api: [2.0.0,3.0.0]
+version: 1.0
+author: Reivax
+
+commands:
+ heal:
+  description: heal command
+
+permissions:
+ heal.reivax:
+  default: op
+  description: Permission for heal command
+ heal.other:
+  default: op
